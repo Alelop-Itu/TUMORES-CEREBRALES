@@ -1,0 +1,38 @@
+# --- Entornos Virtuales ---
+venv/
+.venv/
+env/
+env_local/
+machinelearning2026nocturno/
+
+# --- Jupyter Notebooks (Checkpoint) ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Archivos de Datos (Dataset de Kaggle) ---
+# Evita subir los datos pesados a GitHub
+data/
+data_proyecto/
+datasets/
+raw_data/
+processed_data/
+*.zip
+*.tar.gz
+*.csv
+
+# --- Configuración de VS Code y editores ---
+.vscode/
+.idea/
+.devcontainer/
+*.code-workspace
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+
+# --- Sistema Operativo ---
+.DS_Store
+Thumbs.db
