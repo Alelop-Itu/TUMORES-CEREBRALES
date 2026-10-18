@@ -19,6 +19,8 @@ processed_data/
 *.zip
 *.tar.gz
 *.csv
+!manifiesto_sha256.csv
+artefactos/
 
 # --- Configuración de VS Code y editores ---
 .vscode/
